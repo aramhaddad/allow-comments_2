@@ -1,0 +1,835 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Aram Haddad Notes</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/MyHTML.css">
+
+</head>
+<body>
+<header class="title">Welcome to <em>Aram Haddad</em> Notes.</header>
+<div>
+<div class="stage_Notes">
+	<h2 class="stage_Title"> ****** Stage 1: Make your Own Webpage ****** </h2>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: The Basics of the Web and HTML</h2>
+			<div class="Section1">
+				<div>
+				<p>The Web is made of HTML pages connected by URLs.</P>
+				<p>HTML: HyperText markup language.
+				<br>
+				Text content: what you see.
+				<br>
+				Markup: what it looks like.
+				<br>
+				Reference to other documents: eg images or videos.</P>
+				</div>
+				<div>
+				<p><img class="image" src="images/theweb.gif" alt="this is an image" style="re"></P>
+				</div>
+			</div>
+
+			<div class="Section2">
+				<p>A TAG is contained in angled brackets, and in HTML we have an opening TAG and a closing TAG.</P>
+				<p>A void TAG is a TAG that does not require a closing TAG.</P>
+				<p>An Element is the opening and closing TAGs and the content between them.</P>
+				<p>Attributes are Tags that include some "value" or reference to a website or an image or etc.</P>
+				<p>Container elements: elements that do nothing but contain stuff inside of them.</P>
+			</div>
+			<div class="Section3">Computers are Stupid, you need to tell them exactly what to do. and they can't figure out for themselves what you mean or want except if you explain it exactly with no typos or errors.
+			</div>
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Creating a Structured Document with HTML</h2>
+			<div class="Section1">
+				<div>
+					<p>HTML and CSS develop and change over time, but the underlying principles always remain the same.</p>
+					<p>We can think of an HTML file like we think of a house:</P>
+					<p>- HTML is the structure of the house like where the walls are placed, the rooms, kitchen.. Etc.
+					<br>
+					- CSS is the style of the house like the decoration, the colors of the walls.. Etc.
+					<br>
+					- JAVAScript attached are the interactive components, like the garage door opener, the remote control.. Etc.</P>
+				</div>
+				<div>
+					<br><img class="image" src="images/thehouse.gif" alt="this is an image" style="re">
+				</div>
+			</div>
+			<div class="Section2">
+				<p>DOM: Document Object Model. a tree like structure.</p>
+				<p>The browser builds a Tree like structure of the page. And the Tree means a branching structure.</P>
+				<p>Sideway triangles are an html element, each has an open and closing tag, and it can include a text or another element/branch.</p>
+				<p>To mark the box so you can remember what it's for, and to add style is to give each element a class attribute. A box can also belong to multiple classes.</P>
+			</div>
+			<div class="Section3">
+				Boxifying: dividing/cutting the webpage into boxes within boxes. This is how the browser sees HTML.
+			</div>
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Adding CSS Style to HTML Structure</h2>
+			<div class="Section1">
+				<div>
+					<p>The HTML document starts with !DOCTYPE HTML to tell the browser that this is an HTML document.</p>
+					<p>Then the HTML starts with html and ends with /html.</p>
+					<p>After the HTML TAG we add the head /head Tag.</p>
+					<p>Inside the head Tag we add the link to the CSS file.</p>
+					<p>After the head Tag we add the body /body Tag.</p>
+				</div>
+				<div>
+					<p><img class="image" src="images/html.gif" alt="this is an image" style="re"></p>
+				</div>
+			</div>
+			<div class="Section2">
+				<p>The Concept of Cascading: Rules are applied not only to the elements they directly match, but also their child elements, except if the child element has its own rule.</p>
+				<p>The Concept of Inheritance: Mechanism by which properties are applied not only to specific element but also to its descendants, inheritance relies on the document tree/hierarchy. Only text related properties are inherited, Box related properties are not inherited.</p>
+				<p>The Box Model: Margin; Border; Padding; Content.</p>
+
+			</div>
+			<div class="Section3">
+				<p>It is very important in computer programming not to  REPEAT YOURSELF - Avoid repetition.</p>
+				<p><b>CSS</b> assist programmers to avoid repetition.</p>
+				<p>Repeated codes are very hard to maintain.</p>
+				<p>Writing your style inline with your HTML is not a very good idea because it leads to a lot of repeated codes and you will need to modify the code in every individual element if you decided to make a change or fix an error.</p>
+			</div>
+	</div>
+
+</div>
+
+
+
+<div class="stage_Notes">
+	<h2 class="stage_Title"> ****** Stage 2: Automate Your Page ****** </h2>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Introduction to "Serious" Programming</h2>
+			<div class="Section1">
+				<div>
+				<p>Computer Science is about how to solve problems by breaking them into smaller pieces, and mechanically describing a sequence of steps that you can use to solve each peace, and those steps can be executed by a computer.</P>
+				<p>Programming is the Core of Computer Science.<br>
+				A program needs to be a very precise sequence of steps.</P>
+				</div>
+				<div>
+				<p><img class="image" src="images/computerscience.gif" alt="this is an image" style="re"></P>
+				</div>
+			</div>
+
+			<div class="Section2">
+				<p>Python does something called an interpreter, which means it runs our programs, it interprets them, and execute them in a language that a computer can understand.</P>
+				<p>We can't use natural languages to write computer programs from the following reasons:<br>
+	            - Ambiguity<br>
+	            - Verbosity</P>
+				<p>Backus-Naur Form: non-terminal -> replacement</P>
+				<p>Python Grammar for Arithmetic Expressions:<br>
+				- Expressing is something that has a value.<br>
+				- We can combine tow expressions by using an operator: Expression --> Expression operator Expression.<br>
+				- Expression can be a number.</P>
+				<p>Cycle: the time a computer needs to do one step.</P>
+			</div>
+			<div class="Section3">The trick to dealing with programming mistakes (called "bugs") is not to avoid making them entirely. That's impossible. The trick is to develop a system for finding and fixing them.
+			</div>
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Variables and Strings</h2>
+			<div class="Section1">
+				<div>
+					<p>String is a sequence of characters surrounded by quotes.</p>
+					<p>Variables give programmers a way to give names to values.</P>
+					<p>Assignment Statement: Name = Expression. Name here is the variable we are defining.</P>
+					<p>Parameters are what go inside the parentheses.</p>
+				</div>
+				<div>
+					<br><img class="image" src="images/variables.gif" alt="this is an image" style="re">
+				</div>
+			</div>
+			<div class="Section2">
+				<p>The operator "+" with numbers gives the total, but with strings it gives the concatenation of the two strings.</p>
+				<p>The operator "*" with numbers multiplies and gives the total, but with strings it repeats the string multiple times.</P>
+				<p>Indexing Strings: string [ expression ].<br>
+				Selecting Sub-Sequence of the string: string[expression:expression].</p>
+				<p>Find Operation "method" which is a build in procedure defined by Python: string.find(string).<br>
+				The output of find is the position of the first occurrence of the target string, if it is not found, the output will be -1.</P>
+			</div>
+			<div class="Section3">
+				We can find other occurrences of the target string by adding a number to the find operation: string.find(string,number) it will look for the first occurrence of the target string after the given position.
+			</div>
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Input -- Function -- Output</h2>
+			<div class="Section1">
+				<div>
+					<p><br>A function is something that takes input, does something to that input, and then produces output.</p>
+				</div>
+				<div>
+					<p><img class="image" src="images/function.gif" alt="this is an image" style="re"></p>
+				</div>
+			</div>
+			<div class="Section2">
+				<p>Functions are made by starting a line of code with the keyword def and then giving a function name followed by the function parameters in parentheses. These parameters will eventually be replaced by actual values when the function is used (called).</p>
+				<p>The return keyword tells Python exactly what the function should produce as output. If a function doesn't have a return statement, then it will return nothing.</p>
+				<p>Using Procedures: procedure(input,input,…)</p>
+			</div>
+			<div class="Section3">
+				<p>We can use triple quotes """triple quotes""" to create multi-line strings in Python.</p>
+			</div>
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Decisions and Repetition: If and While</h2>
+			<div class="Section1">
+				<div>
+					<p><br>Python provides lots of different operators for doing comparisons: less than  , greater than , les or equal to , etc</p>
+					<p>The output of a comparison is a Boolean value which is either True or False.</p>
+					<p>In order to have the code make decisions and make something different, we use the If statement.</p>
+					<p>The block is the code that will run when the test expression is True.</p>
+					<p>While Loops: while TestExpression: block
+					<p>Infinite loops: loops that never stops, oftentimes, when software hangs and gets stuck doing something there is a mistake that a programmer made and we call it a bug, it got stuck in an infinite loop.</p>
+					<p>Break Statement: it gives us a way to stop the loop even while the test expression is True.</p>
+
+				</div>
+				<div>
+					<p><img class="image" src="images/theloop.gif" alt="this is an image" style="re"></p>
+				</div>
+			</div>
+			<div class="Section2">
+				<p>Using OR operation:<br>
+				Ture or False --- True.<br>
+				False or True --- True.<br>
+				Ture or True --- True.<br>
+				False or False --- False.<br>
+				True or "any thing" --- True.<br>
+				False or "any thing" --- Error.</p>
+				<p>Modular code, the "data" is separated from its visual presentation so you can change one without worrying about the other.<br>
+				Doing this will require:<br>
+				• Breaking a big task into smaller pieces.<br>
+				• Using functions that you (or others) have already written.<br>
+				• Writing new functions to solve pieces of the bigger problem.<br>
+				• Putting the "pieces" together to solve the bigger problem.<br>
+
+				</p>
+
+			</div>
+			<div class="Section3">
+				<p>In programming, it's not always enough that what you make works.</p>
+				<p>For comparison we use double equal sine because the single equal sign means assignment.</p>
+				<p>Using OR: If the first expression evaluates to True, the value is True, and the second expression is not evaluated.</p>
+			</div>
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Structured Data: Lists and For Loops</h2>
+			<div class="Section1">
+				<div>
+					<p>A list is a sequence of anything, they could be numbers, they could be characters, they could be strings, and they could be also other lists.</p>
+					<p>Mutation means we can change the value of a list after we have created it.</p>
+					<p>Aliasing is when we have two different ways to refer to the same object.</p>
+
+				</div>
+				<div>
+					<p><img class="image" src="images/lists.gif" alt="this is an image" style="re"></p>
+				</div>
+			</div>
+			<div class="Section2">
+				<p>With lists, we can use square brackets to access the elements of the list.</p>
+				<p>Some list operations:<br>
+				- Append, append is a method list.append(element), it will add new elements to our list.<br>
+				- + Plus, it works like append but it will create a new list.<br>
+				- Len(list) gives us the length of a list, in the case of strings, let gives us the number of characters in the string.</p>
+				<p>loops on lists: for name in list: Block</p>
+				<p>We can use list.index(value) to find the position of a value in a list, if the value is not in the list it will produce an error.<br>
+				We can use value in list to find the position of a value in a list, and the result is True  if the value is not found is False.<br>
+				We can also use value not in list also.</p>
+
+			</div>
+			<div class="Section3">
+				<p>Strings are not Mutable, and there is no way to change the value of a string.</p>
+			</div>
+	</div>
+</div>
+
+
+
+<div class="stage_Notes">
+	<h2 class="stage_Title"> ****** Stage 3: Add Videos to Your Page ****** </h2>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Use Functions</h2>
+			<div class="Section1">
+				<div>
+				<p>In the python library there are Modules or files, like webbrowser or time, and inside them there are several functions defined inside each one of them.</p>
+				<p>For exampe under webbrowser we have def open, and under time we have def ctime and def sleep</P>
+				<p>Abstraction: hiding the details in programming, it is a very powerful idea in programming, and helps us focus on the program we need to write and use them by simply reading their documentation.</p>
+				<p>We use the python shell window when we want to do experiments and get quick results.</p>
+				<p>Objcet Oriented Programming "from Class": A technique that's used by software engineers on a daily basis, and they can use this technique to write and share code amongst each other</p>
+				<p>Searching for Object Oriented Programming on the net, I found the following defenition on Wikipedia: Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which are data structures that contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A distinguishing feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of "this"). In OO programming, computer programs are designed by making them out of objects that interact with one another. There is significant diversity in object-oriented programming, but most popular languages are class-based, meaning that objects are instances of classes, which typically also determines their type.</p>
+				<p>Object Oriented Programming "from codeproject.com":OOP is a design philosophy. It stands for Object Oriented Programming. Object-Oriented Programming (OOP) uses a different set of programming languages than old procedural programming languages (C, Pascal, etc.). Everything in OOP is grouped as self sustainable "objects". Hence, you gain reusability by means of four main object-oriented programming concepts.<br>
+
+				In order to clearly understand the object orientation model, let’s take your “hand” as an example. The “hand” is a class. Your body has two objects of the type "hand", named "left hand" and "right hand". Their main functions are controlled or managed by a set of electrical signals sent through your shoulders (through an interface). So the shoulder is an interface that your body uses to interact with your hands. The hand is a well-architected class. The hand is being reused to create the left hand and the right hand by slightly changing the properties of it.</p>
+				<p>Exception: an error that python will give if the request "in our example" is for a file that does not exist or for when we change the file name to a name that already exist in our folder.</p>
+				<p>
+					os: operating system.<br>
+					r: rawpack, take the string as it is, and don't interpret it any other way.<br>
+					Os.listdir : lists all the files in a directory.<br>
+					Os.rename(old,new) : changes the name of a file.<br>
+					string.translate(table, list of characters to remove)<br>
+					Os.getcwd : get current working directory.<br>
+					Os.chdir: changes the directory the system should work with.<br>
+				</p>
+				</div>
+			</div>
+
+
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Use Classes</h2>
+			<div class="Section1">
+				<div>
+					<p>Inside the python library there is a turtle module, inside it there is a Class called: class Turtle.</p>
+					<p>What we learned in the previous chapter is a module with some functions, but this is different, it is not just a .function: .</P>
+					<p>A Class is a packaged box that puts things together really well, and it allows us to write codes like turtle.Turtle.</P>
+					<p>When we call a class turtle.Turtle, we are actually calling a function called init which stands for initialize, and what it does is it creates space in memory for a new instance or new object of the class Turtle, this instance we called in our example Brad. Brad can now access all of the methods inside the class Turtle like forward, right … etc.</p>
+					<p>We can think of a class as a blue print of a building, a blueprint contains certain pieces of information about the building "heights, number or rooms… etc" and the blue prints can be used to build multiple different buildings.<br>
+					A Class is like a blueprint contains certain pieces of information about the turtle like move forward or turn right… individual instances of the Turtle will contain information about their sizes and their colors.<br>
+					Brad for example is an instance, angie is another instance that contains information about sizes and colors.<br>
+					When we call for example webbrowser.open() all we are doing is calling a function.<br>
+					But when we call turtle.Turtle() the init function get called, and it creates or initializes space inside memory for new instance.</p>
+					<p>
+						Turtle is the actual thing that moves around and draw stuff on a computer.<br>
+						.forward: the distance we want the system to move forward.<br>
+						To add a window for drawing we use turtle.Screen().<br>
+						.exitonclick() it closes the window by just clicking on it.<br>
+						.right(degree) turns to the right.<br>
+						We can change the shape of the turtle, the color of the turtle and the speed of the turtle.<br>
+						.shape<br>
+						.color<br>
+						.speed()
+					</p>
+					<p>There is a python package that builds a program to send messages, and it is called twilio.</p>
+					<p>Twilio does not come as part of Python library, it is an external package that we can download and use.</p>
+					<p>From twilio.rest import TwilioRestClient: we are telling the computer that inside Twilio there is a folder called rest, and inside that folder there is a class called twilio rest client and we are going to use that class.</p>
+					<p>When we downloaded twilio we got a folder called twilio and inside it a folder called rest and inside it a class called TwilioRestClient.</p>
+					<p>To call the init function defined inside the class class twiliorestclient, we do rest.TwilioRestClient(), this will create an instance which we call client and we can do multiple things with that.</p>
+					<p>Twilio: a python package that we can use the build a program that sends messages.</p>
+					<p>The from keyword is used for importing a specific variable, class or a function from a module.</p>
+					<p>To draw a shape we wrote a code like brad = turtle.Turtle(), and we are trying to say inside turtle there is a class called Turtle, and by using () we are calling the funcion init which is defined inside the class, init will create a space in memory for a new instance that we called brad, which can do things defined inside the class turtle like moving turtle forward.. etc</p>
+					<p>To send an SMS we wrote a code like client = rest.TwilioRestClient(), and we are trying to say inside rest there is a class called TwilioRestClient .</p>
+					<p>Urllib is a module or file in python and urlopen is a function inside it.<br>
+					A function called open allows us to work on files on our computer.<br>
+					A function called read allows us to read a document.<br>
+					A function called close allows us to close the file we opened.</p>
+					<p>A module in python called urllib it helps us get information from the internet, it has a function called URL open, which takes in a link to a website.</p>
+					<P>The function open is not inside any of the modules we learned in the python library, but it's in as space of its own.</P>
+					<P>We didn't use any import to get open, because it is always available.</P>
+					<P>The python standard library explains that open returns an object of the file type.</p>
+					<p>Object: when we define an object "ex brad = turtle.Turtle()"  when we run this line of code a function called _init_ is called from inside the class Turtle and it will create space in memory for the object "brad in our example".<br>
+					Same apply with the function open even though there is no class, it creates an object of file.</p>
+				</div>
+			</div>
+	</div>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Make Classes</h2>
+			<div class="Section1">
+				<div>
+					<p>Some advanced OOP ideas include: Class Variables, pre-existing class variables, Inheritance, method overriding.</p>
+					<p>We have compared a blueprint to a class, we have said that a blueprint of a building contains information about the building like the number of rooms in the building, the height and the weight of the walls.<br>
+					We said that we can use a blueprint to build several buildings, and these buildings that we can build we called them instances or objects.<br>
+					Classes are like blueprints, and we have seen that a class like Turtle contains information about what a turtle can do like move forward, turn right. And we used that information to build multiple examples or instances of that class, we call them Brad and Angie that drew different shapes.<br>
+					In the same way we want to create a class called movie, which will allow us to create multiple instances of itself, instances like Toy Story and Avatar.
+					</p>
+					<p>The first letter of the name of the class is in uppercase, this is not necessary, but the google style guide for python suggests so.<br>
+					Google Style Guide for Python includes conventions on everything from how to name things to how to write comments.<br>
+					It is a good practice to keep your class in one file and to call/use your class from another file.
+					</p>
+					<p>When we call a class a function called "init" , this stands for initialize, is called and it creates space in memory for a new instance / object of the class.<br>
+					So we started here by creating a file we called media.py, of course we please this file outside of the python standard library. Inside that file we defined a class that we called Movie. Then we defined a line of called that said media.Movie. What that does is it called the init function defined inside the class.Movie() . And that created a new instance that we called Toy_story. This function init is also called the constructor because it constructs space and memory for the new instance.<br>
+					Underscores before and after the function is a way for python to tell programmers that the function between the underscores is reserved in python. And that this is a special function or method.<br>
+					What is special about the __init__ function is that in initializes space in memory for details, example in our senario is the title soryline poster_image and trailer_youtube.<br>
+					__init__ takes a few pieces of information or arguments.  Self is the object being created, so in this case for example it points to toy_story.<br>
+					We want init to initialize pieces of information like title, story line.. Etc that we want to remember inside our class.
+					</p>
+					<p>what happens when we create an instance called toy_story and we provide the four pieces of information or arguments:<br>
+					The first thing that happens is that the __init__ function gets called, this is the function that we defined inside class movie.<br>
+					Self in this case is itself or the instance being created which is toy_story.<br>
+					The next argument is movie_title = "Toy Story" …. <br>
+					Now, once init gets called and all the arguments receive their correct values, all of the variables that are associated with the instance toy_story gets initialized properly. <br>
+					These varialbes are:<br>
+					Title = "Toy Story"<br>
+					Storyline = "Toys Come to Life" …… etc<br>
+					So far we have created two instances, we have set aside space for each instance, and each instance had its own copy of variables "title, story _line, …. Etc)</p>
+					<p>Instance variables: variables are unique to each instance of class.<br>
+					Removing the word self from any of the arguments under the init function will change the variable from being "instance variable" accessible with instances like Toy_story and avator to being a simple local variable inside the function init.<br>
+					We will in this case be able to access the argument that didn't have self. before it from anywhere inside the function init, but not with instance like avatar.
+					</p>
+					<p>Instance methods:A function that is defined inside a class and is associated with an instance.</p>
+					<p>The fresh_tomatoes.py file takes a list of movies, and it creates and opens an html file that shows those movies. It will store the html file in the exact same folder where we have all the other files we created and saved.</p>
+					<p>Class Variable is a variable that is associated with a Class not an instance. It is defined at the level of class and not under the __init__ function.</p>
+					<p>When we define constant values the google style guide recommends that we use all caps or upper cases to define a variable like that.</p>
+					<p>All classes in python come with preexisting class variables, one of them is called doc. __doc__<br>
+					Example: if I put turtle.Turtle.__doc__ I get some documentation about the class turtle.<br>
+					To use __doc__ with our class movie.<br>
+					We can add documentation to our class movie by using triple code before and after what we write.<br>
+					To find the name of the class we can use __name__<br>
+					To find the module in which the class is defined we can use __module__</p>
+					<p>Inheritance: we would create a parent class "class parent" which would have some attributes, and we would create a "class Child" which would inherit these attributes, additionally the class Child can have attributes of its own.</br>
+					By using inheritance we are able to reuse codes.<br>
+					We will design a code the Parent has the following attributes "last_name, and eye_color" and the child Class has it's own attribute "number_of_toys"<br>
+					Class Child(parent): this means that Class child will inherit the attributes of class Parent.<br>
+					Inheritance can also help us to reuse methods. So even though the method is defined under the Parent and not under child class, the child will inherit it.<br>
+					If a method by the same name is defined in the Child Class, then the method in the parent class WILL NOT be called, and Python will use the method under Class Child. We call this Method Overriding.</p>
+				</div>
+
+			</div>
+			<div class="title">
+			<p>Some Object Oriented Programming Vocabulary.</p>
+			<p><img src="images/oopvocab.gif" alt="this is an image" style="re"></P>
+			</div>
+	</div>
+</div>
+
+
+<div class="stage_Notes">
+	<h2 class="stage_Title"> ****** Stage 4: Allow Comments ****** </h2>
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Introduction to Networks</h2>
+			<div class="Section1">
+				<div>
+				<p> A server is a computer that interacts with a request we make to the computer. For example, whenever we type in "http://www.google.com", we are sending a request to Google's servers to return a website.</p>
+				<p>Network: a group of entities that can communicate even though they are not all directly connected.</p>
+				<p>Channel: the way the entities talk to each other.</p>
+
+				<p>To have a network there has to be at least three entities, and there has to be a way where entities that are not directly connected can still communicate to each other.<br>
+				Humans have been using networks over 3000 years old.<br>
+
+				<p>What do we need to make a network:<br>
+				- We need a way to encode messages, we need to be able to convert the message and encode it in a signal.<br>
+				- We need a way to do routing, where the message is going, and we need to know that it should be forwarded.</p>
+
+				<p>Flooding: sending the message everywhere.<br>
+				- We need to decide who gets to use the network</p>
+				<p>Measuring Networks:<br>
+				- Latency: The time it takes for a message to get from source to destination. Measured in units of time.<br>
+				- Bandwidth: Amount of information that can be transmitted per unit time. It is measured by unit of information / unit of time.</p>
+
+				<p>What is a bit : the smallest unit of information. "0 or 1"<br>
+				We can measure the bandwidth we get through our internet connection. We can go to CNET.com/internet-speed-test/ . And it will try sending some message to figure out what is my bandwidth.</p>
+				<p>To encode messages over the internet we use bits and over the wires we use electrons/photons.<br>
+				To route message over the internet we use routers.<br>
+				To decide who use the resources over the internet, there aren't rules except using the best effort service, there are policies that the routers use, and there is no guarantee as your packet might get dropped.<br>
+				What we need to make a network work is a protocol.<br>
+				A protocol is a set of rules that people agree to that tell you how two entities can talk to each other.</p>
+				<p>In the web the protocol gives rules on how the client "Web Browser" and the server communicate to each other.<br>
+				The protocol that we use on the web is called hypertext transfer protocol HTTP.<br>
+				Almost all the URLs start with HTTP indicating that the server you are contacting is using this protocol.</p>
+				<p>HTTP is a very simple protocol it has two messages:<br>
+				- GET object and the server will run some code and get the file requested and then send that to you.<br>
+				- Respond - contents of object.</p>
+				</div>
+			</div>
+	</div>
+
+
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Make the Internet Work for You</h2>
+			<div class="Section1">
+				<div>
+				<p>URL: Uniform Resource Locator.<br>
+				Parts of URL:<br>
+				- The protocol separated by a column and two slashes from the second part "http://"<br>
+				- The host: example "www.udacity.com"  which is the server that has the document that we want to access.<br>
+				- The path which can be only a slash, slash is the minimum path.</p>
+				<p>Some protocols that are used: http, https, ftp.<br>
+				The hosts gets translated to an IP address.<br>
+				The Host is the document that we are going to fetch.</p>
+				<p>Query Parameter, also none as "GET parameter": <br>
+				Example: http://example.com/foo?p=1 the last part "?p=1"<br>
+				This adds an extra parameter whose name is P and whose value is 1<br>
+				The format of query parameter is Name = Value, and the value can be just about anything.<br>
+				We can add extra parameters:<br>
+				Example: http://example.com/foo?p=1&q=neat<br>
+				The first query parameter is separated from the URL using a question mark the second and all following query parameters are separated by ampersands "&".</p>
+
+				<p>The Query parameters are extra information the server gets and you can do many things with it.</p>
+
+				<p>A cache (pronounced like cash) is something that stores data so that you don't have to retrieve it later. It can be used to make data requests faster. </p>
+
+
+				<p>A Fragment: it is separated from the URL by a hash sign, and it is generally used to reference a particular part of the page  that we are looking at, or used for some complex JavaScript. The important thing to know is that fragments are not sent to the server when we make a request, it only exists on the browser.<br>
+
+				The Fragment comes last in the URL it follows the Query parameters.</p>
+
+				<p>The Port: in order to make an internet connection we need two things the address of the machine which is represented by the host, and also we need a port.<br>
+				The port by default is equal 89, if we want to use a different port we can include it in the URL between the host and the path separated by a colon, example: http://localhost:8000/</p>
+
+
+				<p>HTTP is the main protocol used in the web, and it stands for Hyper Test Transfer Protocol.</p>
+
+				<p>The request from the browser begins with a GET request, example:<br>
+				http://www.example.com/foo<br>
+
+				GET /foo HTTP/1.1<br>
+				HTTP is a very simple text protocol, and by sending GET /foo HTTP/1.1 the request is sent to the server.</p>
+
+				<p>The request line GET /foo HTTP/1.1 has three main parts:<br>
+				- The Method "GET" : The Method is what type of request we are making to the server. The most common method we have is "GET" , and this is how we get a document from a server, other methods are used like POST and others. POST is often used for sending data to the server.<br>
+				- The Path "/foo" : This is the actual document we are requesting from the server. This is the "relative path" to the server address www.example.com , and we can also specify the full path "http://example.com/foo"<br>
+				- The Version "HTTP Version": it is always HTTP/ and then the version number. Most browsers and servers these days speak at 1.1</p>
+
+				<p>The Host name is not in the GET, the host is used to make the connection but we don't need it to get the document when we are connected to the server.<br>
+
+				The HTTP request is followed by headers, and they have this format: Name: Value<br>
+				Example: Get /foo?p=1 HTTP/1.1<br>
+				Host: www.example.com   This is useful because web servers may have multiple names<br>
+				User-Agent: chrome            This describes who is making the request, generally this is the browser<br>
+				User-Agent is one of the most important headers because some people can show with fake users and they can pretend to be a browser, or some User-Agents can hurt some servers so knowing the user agent can help us adjust and fix the problems. Also we need to use user agents appropriately and be honest about our identity.<br>
+
+				<p>The HTTP Respond: the server respond with the document or information that you requested.<br>
+				A basic http respond the respond looks like this:<br>
+				HTTP/1.1 200 ok      this is called status line and this is analogous to the request line GET /foo HTTP/1.1</p>
+
+				<p>The version of the status line matches the version of the request line, and it is followed  be two pieces of information:<br>
+				§ The Status code<br>
+				§ The Reason phrase<br>
+				Some common status codes are the following:<br>
+				200 OK   --- the document found<br>
+				302 Found --- the document is located somewhere else<br>
+				404 Not found --- the document was not found<br>
+				500 Server Error --- the server broke trying to handle our request.</p>
+
+				<p>The status code always start with 2, 3, 4, or 5… if it begins with 2 it means success, if 3 it means we need to do something different technically to find the document… if 4 there is an error on browser side, and 5 error on server side.</p>
+
+				<p>Status line is followed by headers<br>
+
+				HTTP/1.1 200 ok<br>
+				Date: Tue Mar 2012 04:33:33 GMT  --- it is their all the time.<br>
+				Server: Apache /2.2.3 --- name and version number of the server handling the request.. This is optional, and for security reason it is not usually included.<br>
+				Content-type: text/html; --- document type<br>
+				Content-Length: 1539 --- how long is the document that is followed<br>
+
+				Some of the headers are required and others are optional</p>
+
+				<p>Servers: The purpose of a server is to respond to HTTP requests. <br>
+				There are two main classifications for the type of responds the servers will do:<br>
+				- Static: the server just returns the request from its catch.<br>
+				□ Pre-written file<br>
+					® image<br>
+				- Dynamic: the respond is built by a program that is running<br>
+				□ Made on the fly<br>
+					® The program used are web application. Which lives on a web server and it speaks HTTP and it generates content that the browser requests.</p>
+				</div>
+			</div>
+	</div>
+
+
+
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Forms</h2>
+			<div class="Section1">
+				<div>
+				<p>Forms are what users of a web page will use to enter text, select from dropdown menus, check checkboxes, etc.</p>
+
+
+				<p>When we make forms we need to make sure the data we are getting from the user is actually secure, because through forms we are letting the users into our websites so we need to make sure we only allow them to do what we want them to do.</p>
+
+
+				<p>Form Tag: form> /form> .. Between the opening and closing tags we put our element  input box input>, the input tag can take a couple of attributes, one of them is name input name="name"><br>
+
+				To click a button, we can use the input element input type="submit"><br>
+
+				When we hit enter or click submit we are submitting the form and by default the form is submitting to itself.<br>
+
+				We can make the form submit to somewhere else.<br>
+
+				The attribute to use is called action, and it control where a form submits to.<br>
+
+				form action="/fee"> : /fee is the URL where we want the form to submit to.<br>
+
+				Because URL does not have spaces if we enter anything with spaces in the box, our browser will do URL or form encoding or URL escaping. It will replace the space with +<br>
+
+				We can add input parameter to our input input type="test" name="q"> <br>
+				Text is the default text input parameter.<br>
+				Other types is password type='password" where you can enter passwords in the text box. Using this type won't send the password securely to the server because it will show it in the URL.<br>
+
+				Another type is "checkbox" and it will make a checkbox, if we check the checkbox it will give q=on in the URL if we didn't check the box it will not give anything in the URL.<br>
+
+				We can also use radio buttons by using type="radio" </p>
+
+				<p>Value parameter : the value will be given to the name, so in the URL it will add in the example below one or two or three.<br>
+
+				Lable element: it will give the user an idea what he is clicking.<br>
+
+				Form: Dropdown: there is a select element of a name and few option elements.<br>
+
+				If we want the parameter that is shown in the URL different than the text shown in the drop down list, we use value.</p>
+				</div>
+			</div>
+	</div>
+
+
+
+
+
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Python Break-Modules and Dictionaries</h2>
+			<div class="Section1">
+				<div>
+				<p>
+				Modulus Operator %: it takes a number and nap said to the range based on the remainder when you divide that number.<br>
+				IT takes a number, naps it to the ranger based on the remainder when you divide that number.<br>
+				Module arithmetic works like a clock, 14%12 equals 2, so from zero we make 14 steps and we end up with to 2.
+				</p>
+
+
+				<p>To search if a key is in a dictionary or not we use in, the value will be True or False.<br>
+
+				To fix or modify a value we can just update the same way we add a new element</p>
+
+				<p><img src="images/stringlistdictionary.gif" alt="this is an image" style="re"></P>
+
+				</div>
+
+			</div>
+	</div>
+
+
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Working with App Engine</h2>
+			<div class="Section1">
+				<div>
+				<p>
+				If we put the default content type as plain/text, it will show the results we request to launch as text, but if we want the browser to interpret it as HTML we need to use the text type as HTML, the default text type is HTML.<br>
+
+				If we don't specify a method it defaults to Get, if we need to use method "post" we need to define it.<br>
+
+
+				One of the big differences between Get and Post is that Get includes the data in the URL, while Post include the data in the request body.<br>
+
+				Links are GET requests, to make a post request we need a form.
+
+				</p>
+
+				<p><img src="images/getpost.gif" alt="this is an image" style="re"></P>
+
+				</div>
+
+			</div>
+	</div>
+
+
+
+
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Validation</h2>
+			<div class="Section1">
+				<div>
+				<p>
+				Validation: Verifying on the server side that what we received is what we expected to receive.<br>
+
+				The Server can receive junk, and it need to be ready to deal with somebody sending completely broken data.
+				</p>
+
+				<p>
+				To verify data we need three things:<br>
+					1- Verify the user's input<br>
+					2- On Error, render form again.<br>
+					3- Include error message
+				</p>
+
+				<p>
+				String Substitution: <br>
+
+				To make bold for example:<br>
+
+				<b>%s</b>"%VARIABLE  … this will help us not repeat the contents we want to make bold, we don't need to repeat the content every time we want it bold.. <b>%s</b>"%VARIABLE will substitute our variable with %s <br>
+
+				<p>
+				Value Attribute: we can add it to our text element, the value attribute causes the text box to have a default value, and helps us keep the values the user entered.<br>
+				Escaping: HTML allows us to escape or change certain characters, and that prevent users from entering characters and reprogram our page. So instead of including the character we make it convert it for example isntead of including (") we convert it to (&quot;)… cgi function in python can do this for us.</p>
+
+				<p>Redirection:<br>
+				- So far we can't share our results "the success link"<br>
+				- We can't reload the page without annoying message "Do you want to resubmit this form"<br>
+
+				Instead of the server returning the success message to us, we want it to redirect, and then we use GET success to add to the URL, and then the server will return the success message also in URL
+				</p>
+
+				</div>
+
+			</div>
+	</div>
+
+
+
+
+
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: HTML Templates</h2>
+			<div class="Section1">
+				<div>
+				<p>
+				• Templates are a great way to.<br>
+				○ separate different types of code<br>
+				○ make more readable code<br>
+				○ more secure websites<br>
+				○ html that is easy to modify
+
+				</p>
+
+				<p>
+				• GREAT TIPS! include:<br>
+				○ always autoescape<br>
+				○ minimize code in templates - "we don't want to have code in html"<br>
+				○ minimize html in code - "I have a rule: no html in our code."
+				</p>
+
+				<p>A Basic web application looks like the example below:</p>
+
+				<p><img src="images/applicationexample.gif" alt="this is an image" style="re"></P>
+
+				<p>
+				Turning our page to multi shopping list application<br>
+				ul tag makes an unordered list<br>
+				ol tag makes an ordered list
+				</p>
+
+
+
+				<p>
+				A template library is a library to build complicated strings. Although we can use any string with web application mostly we use html strings.<br>
+
+
+				We are going to use a library called jinja2 and it is already built in google app engine.<br>
+				More info about Jinja: http://jinja.pocoo.org/<br>
+				Jinja2 is a full featured template engine for Python. It has full unicode support, an optional integrated sandboxed execution environment, widely used and BSD licensed.<br>
+
+				To add a library in our app.yaml we add:<br>
+
+				Libraries:<br>
+				- Name: jinja2<br>
+				Version: latest<br>
+
+				And in our template.py we add<br>
+				Import jinja2
+				</p>
+
+				<p>
+				Variable Substitution: in jinja the syntax for substituting variables   followed by our variable name. and then we close the curly braces . <br>
+
+				The curly braces just means print.<br>
+
+				<p>
+				Escaping variables:, building a filter in jinja |<br>
+				Another way when we initialised jinja we can add autoescape = true<br>
+
+				Helpful tips<br>
+				= always automatically escape variables when possible<br>
+				= minimize code in templates<br>
+				= minimize html in code</p>
+
+				<p>Template Inheritance: we don't need to write the title and footer over and over again, we can organize our templates, we can have one template that includes the footer and the header and we can have the sub templates use that.</p>
+
+				</div>
+
+			</div>
+	</div>
+
+
+
+
+
+
+	<div class="chapter">
+			<h2 class="chapter_Title">Notes on: Databases</h2>
+			<div class="Section1">
+				<div>
+				<p>
+				Databases are how we actually store all the information we collect from users.<br>
+				Database: A program that stores and retrieves "large amounts" of structured data.<br>
+
+				Database can refer to a program that stores and retrieves data, to the machine running that program or to a group of machines working together to share/retrieve data.<br>
+
+				Columns in the database are the properties that make up a particular type.</p>
+
+
+				<p>Every entry in the of a type in the table is called a row. A row is one instance of an element in a table.<br>
+
+				Downside of querying data by hand:<br>
+				- Error - prone<br>
+				- Tedious<br>
+				- Slow</p>
+
+				<p>Types of Databases:<br>
+				• Relational, and it uses SQL : examples: Postgresql; MySQL; salite; Oracle… they all work with tables and they use SQL manipulate tabls.<br>
+				• Google APP Engine's Data store.<br>
+				• Dynamo by amazon.<br>
+				• NoSQL: Example: Mongo; couch.</p>
+
+
+				<p>SQL: Structured Query Language. It is a language for expressing queries. So you would use SQL on a relational database to ask questions of the database to get data out of it. It was invented in the 1970s, long before the internet existed.<br>
+
+				A basic SQL query would look like this:<br>
+				Select * From links where id = s;  select means "fetch" retrieve data. Star means all columns, links is the table we are fetching data from, and ID = 5 is a constraint.
+				</p>
+				<p>Select * : this is what we are selecting, the * can be actually a list of columns.<br>
+
+				The where id = s is the constrain , it is which rows from our table to return.<br>
+
+				Module SQLite3 in python when imported it allows us to use SQLite in python.<br>
+
+				The Where clause is not required when we want to fetch everything.</p>
+
+				<p>Joins: a SQL query that involved many tables. Join is a SQL statement that involves two tables.</p>
+
+				<p>Indexes:<br>
+
+				Sequential scans, when we have sequent of something, and you search/find by going over the list and searching, but this is very slow for big lists.<br>
+
+				Indexes is like an index in the box, it makes looking at things faster. (Key - Value) this makes queries run much faster.<br>
+
+				Indexes for sorting:<br>
+
+				Hash tables are not sorted, it is just a mapping of keys to values, and it is not sorted, it has constant time in looking ups.<br>
+
+				There is a different type of mapping is called tree, and it is sorted, the lookups are slower. The lookups increases by increasing the size of the data table.</p>
+
+				<p>ACID: <br>
+				Atomicity: All parts of a transaction "group of statements/ multiple commands" succeed or fail together.<br>
+				Consistency: the database will always be consistent, the different lists should be updated and matches.<br>
+				Isolation: no transaction can interfere with another. <br>
+				Durability: once the transaction is committed, it won't be lost.<br>
+
+				In the Google App Engine Data store, some vocabularies are different:<br>
+
+				Tables ---> Entities in entities, columns are not fixed, entities in this are different than tables, all entities have an ID that can be assigned automatically. Entities has parent/ancestors notion. </p>
+
+				</div>
+
+			</div>
+	</div>
+
+
+
+</div>
+
+
+</div>
+<footer>
+		<h2 class="footnotes">Useful Links</h2>
+		<p>
+			<a href="https://www.udacity.com">Udacity University</a>
+			<br>
+			<a href="http://scratchpad.io/staking-beetle-6393">Scratchap</a>
+			<br>
+			<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS References</a>
+			<br>
+			<a href="http://stackoverflow.com/questions/2612483/whats-so-bad-about-in-line-css">Stack Over Flow</a>
+			<br>
+			<a href="https://github.com/">GitHub</a>
+			<br>
+			<a href="http://validator.w3.org/#validate_by_input">Validate your HTML</a>
+			<br>
+			<a href="http://jigsaw.w3.org/css-validator/#validate_by_input">Validate your CSS</a>
+			<br>
+			<a href="https://www.python.org/">Python</a>
+		</p>
+		<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer"> <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+		</p>
+</footer>
+</body>
+</html>

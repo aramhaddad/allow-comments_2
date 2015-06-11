@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<form>
+
+	<h2>Please add your name to our Guests Book</h2>
+	<input type="text" name="visitor">
+	{% if students %}
+		{% for student in students %}
+			<input type="hidden" name="visitor" value="{{student}}">
+		{% endfor %}
+	{% endif %}
+	<button>Add</button>
+
+	{% if students %}
+		<br>
+		<br>
+
+		<h2>Guests Book</h2>
+		<ul>
+			{% for student in students %}
+				<li>{{ student }}</li>
+			{% endfor %}
+		</ul>
+
+	{% endif %}
+
+</form>
+
+{% endblock %}
